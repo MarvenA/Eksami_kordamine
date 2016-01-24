@@ -18,6 +18,7 @@ public class Objektorienteeritus {
         kott.lisaAsi("Hambahari");
         kott.lisaAsi("Pleier");
         kott.lisaAsi("Langevari");
+        kott.lisaAsi("Kõrvaklapid");
         kott.eemaldaAsi("Langevari"); // Ah mis sellest ikka vedada, saab ilma ka
 
         System.out.println("Kotis on järgmised asjad: " + kott.misOnKotis());
