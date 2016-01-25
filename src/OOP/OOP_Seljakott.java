@@ -1,13 +1,15 @@
+package OOP;
+
 import java.util.ArrayList;
 
 /**
- * Siin failis kasutatakse objekti Seljakott, aga Seljakott klassi ei eksisteeri. Sinu ülesanne
+ * Siin failis kasutatakse objekti OOP.Seljakott, aga OOP.Seljakott klassi ei eksisteeri. Sinu ülesanne
  * on see luua. Pane tähele, et mitte ükski objekti muutuja ei tohi olla
  * kättesaadav objektist väljaspoolt.
  *
  * Käesolevat klassi ei tohi muuta! Arvad, et ei jää vahele? :)
  */
-public class Objektorienteeritus {
+public class OOP_Seljakott {
 
     public static void main(String[] args) {
 

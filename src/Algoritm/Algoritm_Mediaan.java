@@ -1,3 +1,5 @@
+package Algoritm;
+
 import java.util.Arrays;
 
 /**
@@ -6,7 +8,7 @@ import java.util.Arrays;
  * tegelikult 60 punkti, pead esiteks kõik suuremad arvud 60 peale ümardama.
  * Teiseks leia mitu tudengit said üle mediaani?
  */
-public class Algoritm {
+public class Algoritm_Mediaan {
 
     // Main klass on ainult sulle endale testimiseks
     public static void main(String[] args) {

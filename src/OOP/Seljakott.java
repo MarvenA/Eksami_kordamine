@@ -1,9 +1,12 @@
+package OOP;
+
 import java.util.ArrayList;
 
 /**
  * Created by maus on 24.01.2016.
  */
 public class Seljakott {
+
     private ArrayList<String> kotiSisu = new ArrayList<>();
     private String asi;
     private String omanik;
@@ -26,7 +29,7 @@ public class Seljakott {
 
     public String mituAsjaOnKotis() {
 
-        if (kotiSisu.size()!=0) {
+        if (kotiSisu.size() != 0) {
             return String.valueOf(kotiSisu.size());
         } else
             return "Kott on tühi.";
@@ -38,19 +41,7 @@ public class Seljakott {
     }
 
     public String misOnKotis() {
-        String asjadKotis = "";
-
-        if (kotiSisu.size() != 0) {
-            for (int i = 0; i < kotiSisu.size(); i++) {
-                asjadKotis += kotiSisu.get(i);
-                if (i == kotiSisu.size() - 1) asjadKotis += ".";
-                else asjadKotis += ", ";
-            }
-            return asjadKotis;
-        } else {
-            asjadKotis = "Kotis ei ole mitte ühtegi asja.";
-            return asjadKotis;
-        }
+        return kotiSisu.toString();
 
     }
 }
