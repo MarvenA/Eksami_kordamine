@@ -17,13 +17,12 @@ public class JavaFX_ellips extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Stage stage = new Stage();
         VBox vbox = new VBox();
         Scene scene = new Scene(vbox, 280, 350);
-        stage.setScene(scene);
+        primaryStage.setScene(scene);
 
-        stage.show();
-        stage.setOnCloseRequest(event -> System.exit(0));
+        primaryStage.show();
+        primaryStage.setOnCloseRequest(event -> System.exit(0));
 
         Label label = new Label("Muuda ellipsi joonepaksust.");
         Slider slider = new Slider();
