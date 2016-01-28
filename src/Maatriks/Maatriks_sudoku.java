@@ -24,6 +24,5 @@ public class Maatriks_sudoku {
             }
             System.out.println(); //Vahetab rida, iga rida uuele reale
         }
-
     }
 }
